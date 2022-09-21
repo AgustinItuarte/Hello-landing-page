@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(17,17,20);
+    filter: grayscale(60%);
+    
+}
+/*Fondo de pantalla*/
+.parent{
+    position: relative;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    height: 70vh;
+    left: 19%;
+    top: 140px;
+    width:1200px;
+    filter: drop-shadow(8px 8px 10px gray);
+
+}
+
+/*Logos de redes sociales*/
+.gg-facebook {
+    position: relative;
+    top: 7%;
+    left: 80%;
+    color: white;
+}
+.gg-twitter {
+    position: relative;
+    top: 4.2%;
+    left: 88%;
+    color: white;
+}
+.gg-instagram {
+    position: relative;
+    top: 1%;
+    left: 84%;
+    color: white;
+}
+.fa-align-right{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 94%;
+    bottom: 3%;
+}
+.fa-a{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    left: 3%;
+    bottom: 3%;
+}
+.title{
+    position: relative;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    bottom: 6.6%;
+    left: 9%;
+}
+.hello{
+    position: relative;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 800%;
+    top: 20%;
+    left: 20%;
+    font-stretch: ultra-expanded;
+}
+.words{
+    position: relative;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    left: 23%;
+    top: 17.8%;
+}
+.words2{
+    color: rgba(255, 255, 0, 0.692);
+}
+.fa-grip-lines{
+    position: relative;
+    color: white;
+    top: 43%;
+    left: 20.5%;
+}
